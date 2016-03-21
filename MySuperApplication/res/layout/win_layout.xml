@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/win"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="185dp"
+        android:layout_y="127dp"
+        android:text="WINER!!!"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="30sp" />
+    
+     <Button
+        android:id="@+id/button1"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_x="87dp"
+        android:layout_y="394dp"
+        android:text="Restart"
+        android:textColor="@android:color/holo_orange_dark" />
+
+</AbsoluteLayout>
